@@ -1,0 +1,27 @@
+{
+  "name": "back-end-file",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Ahmed ALKATTAN",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "deep-email-validator": "^0.1.21",
+    "dotenv": "^10.0.0",
+    "email-check": "^1.1.0",
+    "express": "^4.17.1",
+    "google-auth-library": "^7.11.0",
+    "joi": "^17.4.2",
+    "jsonwebtoken": "^8.5.1",
+    "kickbox": "^2.0.4",
+    "mongoose": "^6.0.12",
+    "mongoose-encryption": "^2.1.2",
+    "nodemailer": "^6.7.2",
+    "nodemon": "^2.0.14"
+  }
+}
